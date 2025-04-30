@@ -1,0 +1,1481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210419B32A9DCC4A000C3FA4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210419B22A9DCC4A000C3FA4 /* UIViewExtensions.swift */; };
+		2109B8892AC7F02C00D1C7A3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2109B8862AC7F02C00D1C7A3 /* Roboto-Medium.ttf */; };
+		2109B88B2AC7F02C00D1C7A3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2109B8882AC7F02C00D1C7A3 /* Roboto-Regular.ttf */; };
+		211B193B2A81FCF4007952EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 211B193A2A81FCF4007952EF /* GoogleService-Info.plist */; };
+		213E68FB2B3AE6A1004FE81E /* StudentPortfolio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E68FA2B3AE6A1004FE81E /* StudentPortfolio.storyboard */; };
+		213E68FD2B3AE9EC004FE81E /* GatePassTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E68FC2B3AE9EC004FE81E /* GatePassTblViewCell.swift */; };
+		218571202A98B8A7005B0E03 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185711F2A98B8A7005B0E03 /* UIColorExtension.swift */; };
+		218571222A98B8E2005B0E03 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218571212A98B8E2005B0E03 /* UITextFieldExtension.swift */; };
+		218571242A98B903005B0E03 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218571232A98B903005B0E03 /* UIImageExtension.swift */; };
+		21ABFC762A94C92800BAFB14 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABFC752A94C92800BAFB14 /* Protocols.swift */; };
+		21CE1A522AE654E60014E6D0 /* PostSchoolDiaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE1A512AE654E60014E6D0 /* PostSchoolDiaryVC.swift */; };
+		21D182ED2A7E5FBD00B407BA /* EarningDetailTblVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D182EC2A7E5FBD00B407BA /* EarningDetailTblVCell.swift */; };
+		21D8C3962AA33BF300BB340F /* MultipleSelListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D8C3952AA33BF300BB340F /* MultipleSelListVC.swift */; };
+		21D8C3982AA33CE600BB340F /* MultipleSelListTblVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D8C3972AA33CE600BB340F /* MultipleSelListTblVCell.swift */; };
+		21E64EB32B3AE12F00FFD8EA /* GatePassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E64EB22B3AE12F00FFD8EA /* GatePassVC.swift */; };
+		21E64EB52B3AE22000FFD8EA /* ProfileDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E64EB42B3AE22000FFD8EA /* ProfileDashboard.storyboard */; };
+		329DA7A9F53220A99EC1CD9E /* Pods_HAPS_Teacher_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD8BFB333873E8546862BB6 /* Pods_HAPS_Teacher_App.framework */; };
+		B50411B92AA5A7B80031867D /* SportsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50411B82AA5A7B80031867D /* SportsDetailsVC.swift */; };
+		B508C0592AAB24F000C1580A /* ViewStudentCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508C0582AAB24F000C1580A /* ViewStudentCircularVC.swift */; };
+		B508C05B2AAB255600C1580A /* ViewStudentCircularTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508C05A2AAB255600C1580A /* ViewStudentCircularTblCell.swift */; };
+		B50AAD7A2AA5C96E000089B9 /* ActivityDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50AAD792AA5C96E000089B9 /* ActivityDetailVC.swift */; };
+		B50DAA732AAAF156001DC5E5 /* StudentCircularTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DAA722AAAF156001DC5E5 /* StudentCircularTblCell.swift */; };
+		B50F67932A84B4E1007890DB /* ViewCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F67922A84B4E1007890DB /* ViewCircularVC.swift */; };
+		B50F67952A84B679007890DB /* ViewCircularTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F67942A84B679007890DB /* ViewCircularTblCell.swift */; };
+		B50F67972A84C0F6007890DB /* DocumentForMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F67962A84C0F6007890DB /* DocumentForMeVC.swift */; };
+		B52C0F982A94866C00A7E187 /* ListAppearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C0F972A94866C00A7E187 /* ListAppearVC.swift */; };
+		B52C0F9A2A94869400A7E187 /* ListAppearTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C0F992A94869400A7E187 /* ListAppearTableCell.swift */; };
+		B52F7C302A8CA0380088A766 /* LeaveDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F7C2F2A8CA0380088A766 /* LeaveDetailsVC.swift */; };
+		B52F7C322A8CA4B80088A766 /* LeaveDetailsTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F7C312A8CA4B80088A766 /* LeaveDetailsTblCell.swift */; };
+		B52F7C342A8CA8D40088A766 /* TaskAgendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F7C332A8CA8D40088A766 /* TaskAgendaVC.swift */; };
+		B52F7C362A8CB2E20088A766 /* TaskAgendaTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F7C352A8CB2E20088A766 /* TaskAgendaTblCell.swift */; };
+		B535F8402A80BECF00B0A42E /* ApplyLeaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F83F2A80BECF00B0A42E /* ApplyLeaveVC.swift */; };
+		B535F8422A80D09800B0A42E /* LeaveRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F8412A80D09800B0A42E /* LeaveRecordsVC.swift */; };
+		B535F8462A80DDC900B0A42E /* LeaveRecordsTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F8452A80DDC900B0A42E /* LeaveRecordsTblCell.swift */; };
+		B535F8482A80E8EF00B0A42E /* TaskManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F8472A80E8EF00B0A42E /* TaskManagementVC.swift */; };
+		B535F84A2A80EF4000B0A42E /* AssignTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F8492A80EF4000B0A42E /* AssignTaskVC.swift */; };
+		B5394E7E2AA061BB00141583 /* HostelParentingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E7D2AA061BB00141583 /* HostelParentingVC.swift */; };
+		B5394E802AA0956C00141583 /* HomeWorkHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E7F2AA0956C00141583 /* HomeWorkHistoryVC.swift */; };
+		B5394E822AA095B500141583 /* AssignmentHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E812AA095B500141583 /* AssignmentHistoryVC.swift */; };
+		B5394E842AA0962900141583 /* HostelParentingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E832AA0962900141583 /* HostelParentingListVC.swift */; };
+		B5394E862AA0966400141583 /* HomeWorkHistoryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E852AA0966400141583 /* HomeWorkHistoryTblCell.swift */; };
+		B5394E882AA0968C00141583 /* AssignmentHistoryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E872AA0968C00141583 /* AssignmentHistoryTblCell.swift */; };
+		B5394E8A2AA096B700141583 /* HostelListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5394E892AA096B600141583 /* HostelListTblCell.swift */; };
+		B53C3FFF2A8DE3FE0042C1BB /* StudentAttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C3FFE2A8DE3FE0042C1BB /* StudentAttendanceVC.swift */; };
+		B53C40012A8DEF7D0042C1BB /* ViewAttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C40002A8DEF7D0042C1BB /* ViewAttendanceVC.swift */; };
+		B54C3EFB2A78F52400CA137F /* MySalaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C3EFA2A78F52400CA137F /* MySalaryVC.swift */; };
+		B550AEC12A73872500E239AF /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AEC02A73872500E239AF /* DashboardVC.swift */; };
+		B550AEC42A7387A600E239AF /* DashboardCollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AEC32A7387A600E239AF /* DashboardCollectCell.swift */; };
+		B550AEC62A739E8600E239AF /* AppString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AEC52A739E8600E239AF /* AppString.swift */; };
+		B550AEC82A73A03A00E239AF /* ColorAppAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B550AEC72A73A03A00E239AF /* ColorAppAssets.xcassets */; };
+		B550AECA2A73A0D600E239AF /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AEC92A73A0D600E239AF /* AppExtension.swift */; };
+		B550AECC2A73A64100E239AF /* APILinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AECB2A73A64100E239AF /* APILinks.swift */; };
+		B550AECE2A73A86700E239AF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AECD2A73A86700E239AF /* APIManager.swift */; };
+		B550AED02A73AC9B00E239AF /* CommonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AECF2A73AC9B00E239AF /* CommonObject.swift */; };
+		B550AED22A73AEC400E239AF /* AppMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550AED12A73AEC400E239AF /* AppMessages.swift */; };
+		B555BD4B2ABC0A30006F826D /* MarksEntryAttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD4A2ABC0A30006F826D /* MarksEntryAttendanceVC.swift */; };
+		B555BD4D2ABC1369006F826D /* HolisticMarksEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD4C2ABC1369006F826D /* HolisticMarksEntryVC.swift */; };
+		B555BD4F2ABC1895006F826D /* ShowHolisticMarksEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD4E2ABC1895006F826D /* ShowHolisticMarksEntryVC.swift */; };
+		B555BD512ABC225A006F826D /* HolisticMarksEntryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD502ABC225A006F826D /* HolisticMarksEntryTblCell.swift */; };
+		B555BD532ABC2969006F826D /* CBOEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD522ABC2969006F826D /* CBOEntryVC.swift */; };
+		B555BD552ABC2BD3006F826D /* ShowCBOEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD542ABC2BD3006F826D /* ShowCBOEntryVC.swift */; };
+		B555BD572ABC2F2D006F826D /* ShowCBOEntryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555BD562ABC2F2D006F826D /* ShowCBOEntryTblCell.swift */; };
+		B55D44902A95E92F0063F60A /* DailyActivityLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D448F2A95E92F0063F60A /* DailyActivityLogVC.swift */; };
+		B55D44922A95F30F0063F60A /* ViewDALRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D44912A95F30F0063F60A /* ViewDALRecordVC.swift */; };
+		B55EF43E2ABABB5200E67876 /* ViewRequsetListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF43D2ABABB5200E67876 /* ViewRequsetListVC.swift */; };
+		B55EF4402ABABBB200E67876 /* ViewRequsetDetailTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF43F2ABABBB200E67876 /* ViewRequsetDetailTblCell.swift */; };
+		B55EF4422ABAC90700E67876 /* MyFeedbackListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF4412ABAC90700E67876 /* MyFeedbackListVC.swift */; };
+		B55EF4442ABACD1700E67876 /* SmileyFeedbackListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF4432ABACD1700E67876 /* SmileyFeedbackListVC.swift */; };
+		B55EF4462ABACD4600E67876 /* FrownyFeedbackListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF4452ABACD4600E67876 /* FrownyFeedbackListVC.swift */; };
+		B55EF4482ABACEDC00E67876 /* SmileyFeedbackListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF4472ABACEDC00E67876 /* SmileyFeedbackListTblCell.swift */; };
+		B55EF44A2ABACF0F00E67876 /* FrownyFeedbackListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF4492ABACF0F00E67876 /* FrownyFeedbackListTblCell.swift */; };
+		B55EF44C2ABAE2C200E67876 /* MarksEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF44B2ABAE2C200E67876 /* MarksEntryVC.swift */; };
+		B55EF44E2ABAED1400E67876 /* ShowMarksEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF44D2ABAED1400E67876 /* ShowMarksEntryVC.swift */; };
+		B55EF4502ABAF59E00E67876 /* ShowMarksEntryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EF44F2ABAF59E00E67876 /* ShowMarksEntryTblCell.swift */; };
+		B570F1402A8216FB0021841E /* TaskAssignTomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570F13F2A8216FB0021841E /* TaskAssignTomeVC.swift */; };
+		B570F1422A8221F50021841E /* ViewTaskCollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570F1412A8221F50021841E /* ViewTaskCollectCell.swift */; };
+		B570F1442A8231090021841E /* ViewTaskTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570F1432A8231090021841E /* ViewTaskTblCell.swift */; };
+		B571D8A42AB03B1900E5487E /* MedicalHistoryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571D8A32AB03B1900E5487E /* MedicalHistoryTblCell.swift */; };
+		B571D8A62AB03F9700E5487E /* MedicalEntryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571D8A52AB03F9700E5487E /* MedicalEntryListVC.swift */; };
+		B571D8A82AB0402800E5487E /* MedicalEntryListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571D8A72AB0402800E5487E /* MedicalEntryListTblCell.swift */; };
+		B571FF572A9884200075BBBF /* TeachersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571FF562A9884200075BBBF /* TeachersListVC.swift */; };
+		B571FF592A9884440075BBBF /* TeacherListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571FF582A9884440075BBBF /* TeacherListTblCell.swift */; };
+		B57737042A72756F008F60A9 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57737032A72756F008F60A9 /* Dashboard.storyboard */; };
+		B57737072A727DB5008F60A9 /* ViewBoarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57737062A727DB5008F60A9 /* ViewBoarder.swift */; };
+		B57B53082AA5DD9400CE3B56 /* SportsEntryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B53072AA5DD9400CE3B56 /* SportsEntryListVC.swift */; };
+		B57B530A2AA5DDC200CE3B56 /* ActivityEntryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B53092AA5DDC200CE3B56 /* ActivityEntryListVC.swift */; };
+		B57B530C2AA5DE1400CE3B56 /* SportsEntryListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B530B2AA5DE1400CE3B56 /* SportsEntryListTblCell.swift */; };
+		B57B530E2AA5DE3600CE3B56 /* ActivityEntryListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B530D2AA5DE3600CE3B56 /* ActivityEntryListTblCell.swift */; };
+		B58119852AA9952B000E125C /* ViewCircularEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58119842AA9952B000E125C /* ViewCircularEmployeeVC.swift */; };
+		B58119872AA9B1A1000E125C /* CircularReadStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58119862AA9B1A1000E125C /* CircularReadStatusVC.swift */; };
+		B58119892AA9CA3B000E125C /* CircularStatusTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58119882AA9CA3B000E125C /* CircularStatusTblCell.swift */; };
+		B581198B2AA9D81C000E125C /* StudentCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581198A2AA9D81C000E125C /* StudentCircularVC.swift */; };
+		B5860B0C2AB2CBEB00BBA3C4 /* EComplaintRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B0B2AB2CBEB00BBA3C4 /* EComplaintRecordVC.swift */; };
+		B5860B0E2AB2CEC600BBA3C4 /* EComplaintPendingRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B0D2AB2CEC600BBA3C4 /* EComplaintPendingRecordVC.swift */; };
+		B5860B102AB2CEF100BBA3C4 /* EComplaintResolvedRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B0F2AB2CEF100BBA3C4 /* EComplaintResolvedRecordVC.swift */; };
+		B5860B122AB2D2B200BBA3C4 /* EComplaintPandingRecordTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B112AB2D2B200BBA3C4 /* EComplaintPandingRecordTblCell.swift */; };
+		B5860B142AB2D2F000BBA3C4 /* EComplaintResolvedRecordTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B132AB2D2F000BBA3C4 /* EComplaintResolvedRecordTblCell.swift */; };
+		B5860B162AB2EE3200BBA3C4 /* MyEComplaintRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B152AB2EE3200BBA3C4 /* MyEComplaintRecordVC.swift */; };
+		B5860B182AB2EE7E00BBA3C4 /* MyComplaintPendingRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B172AB2EE7E00BBA3C4 /* MyComplaintPendingRecordVC.swift */; };
+		B5860B1A2AB2EEB000BBA3C4 /* MyComplaintResolvedRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B192AB2EEB000BBA3C4 /* MyComplaintResolvedRecordVC.swift */; };
+		B5860B1C2AB2EEF500BBA3C4 /* MyPendingComplaintTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B1B2AB2EEF500BBA3C4 /* MyPendingComplaintTblCell.swift */; };
+		B5860B1E2AB2EF2C00BBA3C4 /* MyResolvedComplaintTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B1D2AB2EF2C00BBA3C4 /* MyResolvedComplaintTblCell.swift */; };
+		B5860B202AB3057700BBA3C4 /* RequestForVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B1F2AB3057700BBA3C4 /* RequestForVC.swift */; };
+		B5860B222AB30A8900BBA3C4 /* ExtraDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5860B212AB30A8900BBA3C4 /* ExtraDayVC.swift */; };
+		B5862FAB2AD3EADA00C55BAD /* EmpComplaintRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5862FAA2AD3EADA00C55BAD /* EmpComplaintRecordVC.swift */; };
+		B5862FAF2AD3FF3C00C55BAD /* PandingResolveComplaintTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5862FAE2AD3FF3C00C55BAD /* PandingResolveComplaintTblCell.swift */; };
+		B5862FB12AD3FF7800C55BAD /* PandingResolveComplaintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5862FB02AD3FF7800C55BAD /* PandingResolveComplaintVC.swift */; };
+		B5874CE32A989B760073CDFD /* EPTMsprVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5874CE22A989B760073CDFD /* EPTMsprVC.swift */; };
+		B5874CE52A98AEFA0073CDFD /* UploadDocumentViewTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5874CE42A98AEFA0073CDFD /* UploadDocumentViewTblCell.swift */; };
+		B5885A782A84EA17008402A1 /* ViewDocumentTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5885A772A84EA17008402A1 /* ViewDocumentTblCell.swift */; };
+		B588EC472AB185AE00FEF1A1 /* HostelRoomAllocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588EC462AB185AE00FEF1A1 /* HostelRoomAllocationVC.swift */; };
+		B588EC492AB1927800FEF1A1 /* HostelRoomAllocationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588EC482AB1927800FEF1A1 /* HostelRoomAllocationDetailVC.swift */; };
+		B588EC4B2AB192BC00FEF1A1 /* RoomAllocationDetailTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588EC4A2AB192BC00FEF1A1 /* RoomAllocationDetailTblCell.swift */; };
+		B588EC4D2AB1A28F00FEF1A1 /* EComplaintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588EC4C2AB1A28F00FEF1A1 /* EComplaintsVC.swift */; };
+		B588EC4F2AB1B61900FEF1A1 /* PostEComplaintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588EC4E2AB1B61900FEF1A1 /* PostEComplaintVC.swift */; };
+		B593AA832ADFA2F70024FC61 /* FeedbackSuggestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593AA822ADFA2F70024FC61 /* FeedbackSuggestionVC.swift */; };
+		B593AA852ADFA3520024FC61 /* FeedbackSuggestionTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593AA842ADFA3520024FC61 /* FeedbackSuggestionTblCell.swift */; };
+		B596E6EC2A960A1A00FDF7D6 /* ViewActiveLogTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596E6EB2A960A1A00FDF7D6 /* ViewActiveLogTblCell.swift */; };
+		B596E6EE2A960FAE00FDF7D6 /* UploadDocumentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596E6ED2A960FAE00FDF7D6 /* UploadDocumentVC.swift */; };
+		B59735F72A78D49C005971AE /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59735F62A78D49C005971AE /* EditProfileVC.swift */; };
+		B59735F92A78E297005971AE /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59735F82A78E297005971AE /* ChangePasswordVC.swift */; };
+		B598EEE82A94AFA900815202 /* HomeWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B598EEE72A94AFA900815202 /* HomeWorkVC.swift */; };
+		B598EEEA2A94B64A00815202 /* AcademicCalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B598EEE92A94B64A00815202 /* AcademicCalenderVC.swift */; };
+		B59D42BD2A7A1D2C00A58743 /* MySalaryTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D42BC2A7A1D2C00A58743 /* MySalaryTblCell.swift */; };
+		B59D42BF2A7A2CC100A58743 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D42BE2A7A2CC100A58743 /* NavigationVC.swift */; };
+		B59D42C32A7A3AEA00A58743 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D42C22A7A3AEA00A58743 /* Models.swift */; };
+		B59DC8AD2ADE739E00BC6BDB /* EmployeeRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59DC8AC2ADE739E00BC6BDB /* EmployeeRequestVC.swift */; };
+		B59E898A2A8E0804004C1ABD /* ClassesAttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59E89892A8E0804004C1ABD /* ClassesAttendanceVC.swift */; };
+		B59E898C2A8E0918004C1ABD /* MainClassAttendanceTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59E898B2A8E0918004C1ABD /* MainClassAttendanceTblCell.swift */; };
+		B5A44BF92A95CB2400D5349E /* SchoolMatterCalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A44BF82A95CB2400D5349E /* SchoolMatterCalenderVC.swift */; };
+		B5A44BFB2A95CB5E00D5349E /* SchoolCalenderTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A44BFA2A95CB5E00D5349E /* SchoolCalenderTblCell.swift */; };
+		B5AB0C5F2AAEF05000326BB1 /* DisciplineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB0C5E2AAEF05000326BB1 /* DisciplineVC.swift */; };
+		B5AB0C612AAEF72100326BB1 /* FeedbackTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB0C602AAEF72100326BB1 /* FeedbackTypeVC.swift */; };
+		B5AB0C632AAEF78600326BB1 /* DisciplineStudentListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB0C622AAEF78500326BB1 /* DisciplineStudentListTblCell.swift */; };
+		B5AB0C652AAF15F900326BB1 /* MedicalEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB0C642AAF15F900326BB1 /* MedicalEntryVC.swift */; };
+		B5C1588F2A7B70690041FDF7 /* SalaryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1588E2A7B70690041FDF7 /* SalaryDetailsVC.swift */; };
+		B5C158912A7B73F40041FDF7 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C158902A7B73F40041FDF7 /* SplashScreenVC.swift */; };
+		B5C4CDAC2A8383DA0016A9DB /* TaskBymeTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4CDAB2A8383DA0016A9DB /* TaskBymeTblCell.swift */; };
+		B5C4CDAE2A838E640016A9DB /* LeaveReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4CDAD2A838E640016A9DB /* LeaveReportVC.swift */; };
+		B5C4CDB42A8398E20016A9DB /* EmployeeCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4CDB32A8398E20016A9DB /* EmployeeCircularVC.swift */; };
+		B5C4CDB62A839D4B0016A9DB /* EmployeeCircularTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4CDB52A839D4B0016A9DB /* EmployeeCircularTblCell.swift */; };
+		B5C4CDB82A83A2D80016A9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C4CDB72A83A2D80016A9DB /* Assets.xcassets */; };
+		B5C653C42A6F9A490062AF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C653C32A6F9A490062AF2F /* AppDelegate.swift */; };
+		B5C653C62A6F9A490062AF2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C653C52A6F9A490062AF2F /* SceneDelegate.swift */; };
+		B5C653CB2A6F9A490062AF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C653C92A6F9A490062AF2F /* Main.storyboard */; };
+		B5C653D02A6F9A4B0062AF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C653CE2A6F9A4B0062AF2F /* LaunchScreen.storyboard */; };
+		B5C653E42A6F9CD60062AF2F /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C653E32A6F9CD60062AF2F /* LogInVC.swift */; };
+		B5CB8F772A9C82C8003737ED /* PTMRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB8F762A9C82C8003737ED /* PTMRecordVC.swift */; };
+		B5CB8F792A9C833C003737ED /* PTMRecordTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB8F782A9C833C003737ED /* PTMRecordTableCell.swift */; };
+		B5CCC7962A7778990021E212 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC7952A7778990021E212 /* UserModel.swift */; };
+		B5CCC7982A7784A10021E212 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC7972A7784A10021E212 /* UserDefault.swift */; };
+		B5CCC79A2A7793B00021E212 /* MenuBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC7992A7793B00021E212 /* MenuBarVC.swift */; };
+		B5CCC79D2A7798290021E212 /* MenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC79C2A7798290021E212 /* MenuTblCell.swift */; };
+		B5CCC79F2A77B9990021E212 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCC79E2A77B9990021E212 /* MyProfileVC.swift */; };
+		B5CCE2852ACFD97E00BAC423 /* EmployeeDALRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCE2842ACFD97E00BAC423 /* EmployeeDALRecordVC.swift */; };
+		B5CCE2872ACFDF6500BAC423 /* EmployeeDALRecordTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCE2862ACFDF6500BAC423 /* EmployeeDALRecordTblCell.swift */; };
+		B5CCE2892ACFE8CF00BAC423 /* EPTMRecordTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCE2882ACFE8CF00BAC423 /* EPTMRecordTblCell.swift */; };
+		B5CCE28B2ACFE92C00BAC423 /* EmployeePTMRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCE28A2ACFE92C00BAC423 /* EmployeePTMRecordVC.swift */; };
+		B5CCE28F2ACFF22100BAC423 /* EmployeeLeaveReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCE28E2ACFF22100BAC423 /* EmployeeLeaveReportVC.swift */; };
+		B5CFB4ED2AAEDABD00009104 /* CreateStudentCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFB4EC2AAEDABD00009104 /* CreateStudentCircularVC.swift */; };
+		B5D506162A85FBC000440CDF /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D506152A85FBC000440CDF /* NotificationVC.swift */; };
+		B5D506182A86046500440CDF /* NotificationTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D506172A86046500440CDF /* NotificationTblCell.swift */; };
+		B5D84B972A8627D4005B894B /* ViewImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D84B962A8627D4005B894B /* ViewImageVC.swift */; };
+		B5D84B992A863168005B894B /* DailyTaskAgendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D84B982A863168005B894B /* DailyTaskAgendaVC.swift */; };
+		B5DE18852AA7083E00833F41 /* HomeworkAssignmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE18842AA7083E00833F41 /* HomeworkAssignmentVC.swift */; };
+		B5DE18872AA7095800833F41 /* HomeWorkDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE18862AA7095800833F41 /* HomeWorkDetailVC.swift */; };
+		B5DE188B2AA70A0300833F41 /* AssignmentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE188A2AA70A0300833F41 /* AssignmentDetailVC.swift */; };
+		B5DE188F2AA719D800833F41 /* CircularEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE188E2AA719D800833F41 /* CircularEmployeeVC.swift */; };
+		B5DEA2982A835C0100D6FE4F /* ForwardTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEA2972A835C0100D6FE4F /* ForwardTaskVC.swift */; };
+		B5DEA29A2A8366F300D6FE4F /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEA2992A8366F300D6FE4F /* CommentVC.swift */; };
+		B5DEA29C2A83703300D6FE4F /* CommentTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEA29B2A83703300D6FE4F /* CommentTblCell.swift */; };
+		B5DEA29E2A83751100D6FE4F /* TaskAssignBymeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEA29D2A83751100D6FE4F /* TaskAssignBymeVC.swift */; };
+		B5DEA2A02A83775800D6FE4F /* TaskAssignBymeCollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEA29F2A83775800D6FE4F /* TaskAssignBymeCollectCell.swift */; };
+		B5F187F02AD3BD41002C1A0A /* EmployeeLeaveRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F187EF2AD3BD41002C1A0A /* EmployeeLeaveRequestVC.swift */; };
+		B5F187F22AD3BD8F002C1A0A /* EmpLeaveRequestTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F187F12AD3BD8F002C1A0A /* EmpLeaveRequestTblCell.swift */; };
+		B5F187F42AD3D15E002C1A0A /* RequestForExtraDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F187F32AD3D15E002C1A0A /* RequestForExtraDayVC.swift */; };
+		B5F187F62AD3D1D3002C1A0A /* RequestForExtraDayTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F187F52AD3D1D3002C1A0A /* RequestForExtraDayTblCell.swift */; };
+		B5FAB2802AA7349600449447 /* CircularEmployeeTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAB27F2AA7349600449447 /* CircularEmployeeTblCell.swift */; };
+		B5FDDA282AA1CE0F007DDDE5 /* HostelStudentListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDDA272AA1CE0F007DDDE5 /* HostelStudentListTblCell.swift */; };
+		B5FDDA2A2AA1DB7D007DDDE5 /* PTMStudenListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDDA292AA1DB7D007DDDE5 /* PTMStudenListTblCell.swift */; };
+		B5FDDA2C2AA1EB51007DDDE5 /* StudentPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDDA2B2AA1EB51007DDDE5 /* StudentPortfolio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DD8BFB333873E8546862BB6 /* Pods_HAPS_Teacher_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAPS_Teacher_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210419B22A9DCC4A000C3FA4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		2109B8862AC7F02C00D1C7A3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2109B8872AC7F02C00D1C7A3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2109B8882AC7F02C00D1C7A3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		211B193A2A81FCF4007952EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		213E68FA2B3AE6A1004FE81E /* StudentPortfolio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentPortfolio.storyboard; sourceTree = "<group>"; };
+		213E68FC2B3AE9EC004FE81E /* GatePassTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatePassTblViewCell.swift; sourceTree = "<group>"; };
+		215FC5C82AA0AECD009E9B14 /* HAPS Teacher App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HAPS Teacher App.entitlements"; sourceTree = "<group>"; };
+		2185711F2A98B8A7005B0E03 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		218571212A98B8E2005B0E03 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		218571232A98B903005B0E03 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		21ABFC752A94C92800BAFB14 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		21CE1A512AE654E60014E6D0 /* PostSchoolDiaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSchoolDiaryVC.swift; sourceTree = "<group>"; };
+		21D182EC2A7E5FBD00B407BA /* EarningDetailTblVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningDetailTblVCell.swift; sourceTree = "<group>"; };
+		21D8C3952AA33BF300BB340F /* MultipleSelListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelListVC.swift; sourceTree = "<group>"; };
+		21D8C3972AA33CE600BB340F /* MultipleSelListTblVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelListTblVCell.swift; sourceTree = "<group>"; };
+		21E64EB22B3AE12F00FFD8EA /* GatePassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatePassVC.swift; sourceTree = "<group>"; };
+		21E64EB42B3AE22000FFD8EA /* ProfileDashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDashboard.storyboard; sourceTree = "<group>"; };
+		9C559C07AD874A8533252F25 /* Pods-HAPS Teacher App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAPS Teacher App.debug.xcconfig"; path = "Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App.debug.xcconfig"; sourceTree = "<group>"; };
+		B50411B82AA5A7B80031867D /* SportsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsDetailsVC.swift; sourceTree = "<group>"; };
+		B508C0582AAB24F000C1580A /* ViewStudentCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStudentCircularVC.swift; sourceTree = "<group>"; };
+		B508C05A2AAB255600C1580A /* ViewStudentCircularTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStudentCircularTblCell.swift; sourceTree = "<group>"; };
+		B50AAD792AA5C96E000089B9 /* ActivityDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailVC.swift; sourceTree = "<group>"; };
+		B50DAA722AAAF156001DC5E5 /* StudentCircularTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCircularTblCell.swift; sourceTree = "<group>"; };
+		B50F67922A84B4E1007890DB /* ViewCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularVC.swift; sourceTree = "<group>"; };
+		B50F67942A84B679007890DB /* ViewCircularTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularTblCell.swift; sourceTree = "<group>"; };
+		B50F67962A84C0F6007890DB /* DocumentForMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentForMeVC.swift; sourceTree = "<group>"; };
+		B52C0F972A94866C00A7E187 /* ListAppearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppearVC.swift; sourceTree = "<group>"; };
+		B52C0F992A94869400A7E187 /* ListAppearTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppearTableCell.swift; sourceTree = "<group>"; };
+		B52F7C2F2A8CA0380088A766 /* LeaveDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveDetailsVC.swift; sourceTree = "<group>"; };
+		B52F7C312A8CA4B80088A766 /* LeaveDetailsTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveDetailsTblCell.swift; sourceTree = "<group>"; };
+		B52F7C332A8CA8D40088A766 /* TaskAgendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAgendaVC.swift; sourceTree = "<group>"; };
+		B52F7C352A8CB2E20088A766 /* TaskAgendaTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAgendaTblCell.swift; sourceTree = "<group>"; };
+		B535F83F2A80BECF00B0A42E /* ApplyLeaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyLeaveVC.swift; sourceTree = "<group>"; };
+		B535F8412A80D09800B0A42E /* LeaveRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRecordsVC.swift; sourceTree = "<group>"; };
+		B535F8452A80DDC900B0A42E /* LeaveRecordsTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRecordsTblCell.swift; sourceTree = "<group>"; };
+		B535F8472A80E8EF00B0A42E /* TaskManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementVC.swift; sourceTree = "<group>"; };
+		B535F8492A80EF4000B0A42E /* AssignTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignTaskVC.swift; sourceTree = "<group>"; };
+		B5394E7D2AA061BB00141583 /* HostelParentingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelParentingVC.swift; sourceTree = "<group>"; };
+		B5394E7F2AA0956C00141583 /* HomeWorkHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkHistoryVC.swift; sourceTree = "<group>"; };
+		B5394E812AA095B500141583 /* AssignmentHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentHistoryVC.swift; sourceTree = "<group>"; };
+		B5394E832AA0962900141583 /* HostelParentingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelParentingListVC.swift; sourceTree = "<group>"; };
+		B5394E852AA0966400141583 /* HomeWorkHistoryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkHistoryTblCell.swift; sourceTree = "<group>"; };
+		B5394E872AA0968C00141583 /* AssignmentHistoryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentHistoryTblCell.swift; sourceTree = "<group>"; };
+		B5394E892AA096B600141583 /* HostelListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelListTblCell.swift; sourceTree = "<group>"; };
+		B53C3FFE2A8DE3FE0042C1BB /* StudentAttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAttendanceVC.swift; sourceTree = "<group>"; };
+		B53C40002A8DEF7D0042C1BB /* ViewAttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAttendanceVC.swift; sourceTree = "<group>"; };
+		B54C3EFA2A78F52400CA137F /* MySalaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySalaryVC.swift; sourceTree = "<group>"; };
+		B550AEC02A73872500E239AF /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		B550AEC32A7387A600E239AF /* DashboardCollectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectCell.swift; sourceTree = "<group>"; };
+		B550AEC52A739E8600E239AF /* AppString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppString.swift; sourceTree = "<group>"; };
+		B550AEC72A73A03A00E239AF /* ColorAppAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAppAssets.xcassets; sourceTree = "<group>"; };
+		B550AEC92A73A0D600E239AF /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		B550AECB2A73A64100E239AF /* APILinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILinks.swift; sourceTree = "<group>"; };
+		B550AECD2A73A86700E239AF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B550AECF2A73AC9B00E239AF /* CommonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonObject.swift; sourceTree = "<group>"; };
+		B550AED12A73AEC400E239AF /* AppMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMessages.swift; sourceTree = "<group>"; };
+		B555BD4A2ABC0A30006F826D /* MarksEntryAttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksEntryAttendanceVC.swift; sourceTree = "<group>"; };
+		B555BD4C2ABC1369006F826D /* HolisticMarksEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolisticMarksEntryVC.swift; sourceTree = "<group>"; };
+		B555BD4E2ABC1895006F826D /* ShowHolisticMarksEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHolisticMarksEntryVC.swift; sourceTree = "<group>"; };
+		B555BD502ABC225A006F826D /* HolisticMarksEntryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolisticMarksEntryTblCell.swift; sourceTree = "<group>"; };
+		B555BD522ABC2969006F826D /* CBOEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBOEntryVC.swift; sourceTree = "<group>"; };
+		B555BD542ABC2BD3006F826D /* ShowCBOEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCBOEntryVC.swift; sourceTree = "<group>"; };
+		B555BD562ABC2F2D006F826D /* ShowCBOEntryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCBOEntryTblCell.swift; sourceTree = "<group>"; };
+		B55D448F2A95E92F0063F60A /* DailyActivityLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyActivityLogVC.swift; sourceTree = "<group>"; };
+		B55D44912A95F30F0063F60A /* ViewDALRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDALRecordVC.swift; sourceTree = "<group>"; };
+		B55EF43D2ABABB5200E67876 /* ViewRequsetListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRequsetListVC.swift; sourceTree = "<group>"; };
+		B55EF43F2ABABBB200E67876 /* ViewRequsetDetailTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRequsetDetailTblCell.swift; sourceTree = "<group>"; };
+		B55EF4412ABAC90700E67876 /* MyFeedbackListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeedbackListVC.swift; sourceTree = "<group>"; };
+		B55EF4432ABACD1700E67876 /* SmileyFeedbackListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyFeedbackListVC.swift; sourceTree = "<group>"; };
+		B55EF4452ABACD4600E67876 /* FrownyFeedbackListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrownyFeedbackListVC.swift; sourceTree = "<group>"; };
+		B55EF4472ABACEDC00E67876 /* SmileyFeedbackListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyFeedbackListTblCell.swift; sourceTree = "<group>"; };
+		B55EF4492ABACF0F00E67876 /* FrownyFeedbackListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrownyFeedbackListTblCell.swift; sourceTree = "<group>"; };
+		B55EF44B2ABAE2C200E67876 /* MarksEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksEntryVC.swift; sourceTree = "<group>"; };
+		B55EF44D2ABAED1400E67876 /* ShowMarksEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMarksEntryVC.swift; sourceTree = "<group>"; };
+		B55EF44F2ABAF59E00E67876 /* ShowMarksEntryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMarksEntryTblCell.swift; sourceTree = "<group>"; };
+		B570F13F2A8216FB0021841E /* TaskAssignTomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssignTomeVC.swift; sourceTree = "<group>"; };
+		B570F1412A8221F50021841E /* ViewTaskCollectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTaskCollectCell.swift; sourceTree = "<group>"; };
+		B570F1432A8231090021841E /* ViewTaskTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTaskTblCell.swift; sourceTree = "<group>"; };
+		B571D8A32AB03B1900E5487E /* MedicalHistoryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalHistoryTblCell.swift; sourceTree = "<group>"; };
+		B571D8A52AB03F9700E5487E /* MedicalEntryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalEntryListVC.swift; sourceTree = "<group>"; };
+		B571D8A72AB0402800E5487E /* MedicalEntryListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalEntryListTblCell.swift; sourceTree = "<group>"; };
+		B571FF562A9884200075BBBF /* TeachersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersListVC.swift; sourceTree = "<group>"; };
+		B571FF582A9884440075BBBF /* TeacherListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListTblCell.swift; sourceTree = "<group>"; };
+		B57737032A72756F008F60A9 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B57737062A727DB5008F60A9 /* ViewBoarder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBoarder.swift; sourceTree = "<group>"; };
+		B57B53072AA5DD9400CE3B56 /* SportsEntryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEntryListVC.swift; sourceTree = "<group>"; };
+		B57B53092AA5DDC200CE3B56 /* ActivityEntryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEntryListVC.swift; sourceTree = "<group>"; };
+		B57B530B2AA5DE1400CE3B56 /* SportsEntryListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEntryListTblCell.swift; sourceTree = "<group>"; };
+		B57B530D2AA5DE3600CE3B56 /* ActivityEntryListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEntryListTblCell.swift; sourceTree = "<group>"; };
+		B58119842AA9952B000E125C /* ViewCircularEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularEmployeeVC.swift; sourceTree = "<group>"; };
+		B58119862AA9B1A1000E125C /* CircularReadStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularReadStatusVC.swift; sourceTree = "<group>"; };
+		B58119882AA9CA3B000E125C /* CircularStatusTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularStatusTblCell.swift; sourceTree = "<group>"; };
+		B581198A2AA9D81C000E125C /* StudentCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCircularVC.swift; sourceTree = "<group>"; };
+		B5860B0B2AB2CBEB00BBA3C4 /* EComplaintRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintRecordVC.swift; sourceTree = "<group>"; };
+		B5860B0D2AB2CEC600BBA3C4 /* EComplaintPendingRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintPendingRecordVC.swift; sourceTree = "<group>"; };
+		B5860B0F2AB2CEF100BBA3C4 /* EComplaintResolvedRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintResolvedRecordVC.swift; sourceTree = "<group>"; };
+		B5860B112AB2D2B200BBA3C4 /* EComplaintPandingRecordTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintPandingRecordTblCell.swift; sourceTree = "<group>"; };
+		B5860B132AB2D2F000BBA3C4 /* EComplaintResolvedRecordTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintResolvedRecordTblCell.swift; sourceTree = "<group>"; };
+		B5860B152AB2EE3200BBA3C4 /* MyEComplaintRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEComplaintRecordVC.swift; sourceTree = "<group>"; };
+		B5860B172AB2EE7E00BBA3C4 /* MyComplaintPendingRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComplaintPendingRecordVC.swift; sourceTree = "<group>"; };
+		B5860B192AB2EEB000BBA3C4 /* MyComplaintResolvedRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComplaintResolvedRecordVC.swift; sourceTree = "<group>"; };
+		B5860B1B2AB2EEF500BBA3C4 /* MyPendingComplaintTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPendingComplaintTblCell.swift; sourceTree = "<group>"; };
+		B5860B1D2AB2EF2C00BBA3C4 /* MyResolvedComplaintTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResolvedComplaintTblCell.swift; sourceTree = "<group>"; };
+		B5860B1F2AB3057700BBA3C4 /* RequestForVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForVC.swift; sourceTree = "<group>"; };
+		B5860B212AB30A8900BBA3C4 /* ExtraDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraDayVC.swift; sourceTree = "<group>"; };
+		B5862FAA2AD3EADA00C55BAD /* EmpComplaintRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpComplaintRecordVC.swift; sourceTree = "<group>"; };
+		B5862FAE2AD3FF3C00C55BAD /* PandingResolveComplaintTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandingResolveComplaintTblCell.swift; sourceTree = "<group>"; };
+		B5862FB02AD3FF7800C55BAD /* PandingResolveComplaintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandingResolveComplaintVC.swift; sourceTree = "<group>"; };
+		B5874CE22A989B760073CDFD /* EPTMsprVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPTMsprVC.swift; sourceTree = "<group>"; };
+		B5874CE42A98AEFA0073CDFD /* UploadDocumentViewTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentViewTblCell.swift; sourceTree = "<group>"; };
+		B5885A772A84EA17008402A1 /* ViewDocumentTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDocumentTblCell.swift; sourceTree = "<group>"; };
+		B588EC462AB185AE00FEF1A1 /* HostelRoomAllocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelRoomAllocationVC.swift; sourceTree = "<group>"; };
+		B588EC482AB1927800FEF1A1 /* HostelRoomAllocationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelRoomAllocationDetailVC.swift; sourceTree = "<group>"; };
+		B588EC4A2AB192BC00FEF1A1 /* RoomAllocationDetailTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAllocationDetailTblCell.swift; sourceTree = "<group>"; };
+		B588EC4C2AB1A28F00FEF1A1 /* EComplaintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComplaintsVC.swift; sourceTree = "<group>"; };
+		B588EC4E2AB1B61900FEF1A1 /* PostEComplaintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEComplaintVC.swift; sourceTree = "<group>"; };
+		B593AA822ADFA2F70024FC61 /* FeedbackSuggestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSuggestionVC.swift; sourceTree = "<group>"; };
+		B593AA842ADFA3520024FC61 /* FeedbackSuggestionTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSuggestionTblCell.swift; sourceTree = "<group>"; };
+		B596E6EB2A960A1A00FDF7D6 /* ViewActiveLogTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewActiveLogTblCell.swift; sourceTree = "<group>"; };
+		B596E6ED2A960FAE00FDF7D6 /* UploadDocumentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentVC.swift; sourceTree = "<group>"; };
+		B59735F62A78D49C005971AE /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		B59735F82A78E297005971AE /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		B598EEE72A94AFA900815202 /* HomeWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkVC.swift; sourceTree = "<group>"; };
+		B598EEE92A94B64A00815202 /* AcademicCalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicCalenderVC.swift; sourceTree = "<group>"; };
+		B59D42BC2A7A1D2C00A58743 /* MySalaryTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySalaryTblCell.swift; sourceTree = "<group>"; };
+		B59D42BE2A7A2CC100A58743 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		B59D42C22A7A3AEA00A58743 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B59DC8AC2ADE739E00BC6BDB /* EmployeeRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRequestVC.swift; sourceTree = "<group>"; };
+		B59E89892A8E0804004C1ABD /* ClassesAttendanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesAttendanceVC.swift; sourceTree = "<group>"; };
+		B59E898B2A8E0918004C1ABD /* MainClassAttendanceTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClassAttendanceTblCell.swift; sourceTree = "<group>"; };
+		B5A44BF82A95CB2400D5349E /* SchoolMatterCalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMatterCalenderVC.swift; sourceTree = "<group>"; };
+		B5A44BFA2A95CB5E00D5349E /* SchoolCalenderTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCalenderTblCell.swift; sourceTree = "<group>"; };
+		B5AB0C5E2AAEF05000326BB1 /* DisciplineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplineVC.swift; sourceTree = "<group>"; };
+		B5AB0C602AAEF72100326BB1 /* FeedbackTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackTypeVC.swift; sourceTree = "<group>"; };
+		B5AB0C622AAEF78500326BB1 /* DisciplineStudentListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplineStudentListTblCell.swift; sourceTree = "<group>"; };
+		B5AB0C642AAF15F900326BB1 /* MedicalEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalEntryVC.swift; sourceTree = "<group>"; };
+		B5C1588E2A7B70690041FDF7 /* SalaryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryDetailsVC.swift; sourceTree = "<group>"; };
+		B5C158902A7B73F40041FDF7 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		B5C4CDAB2A8383DA0016A9DB /* TaskBymeTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBymeTblCell.swift; sourceTree = "<group>"; };
+		B5C4CDAD2A838E640016A9DB /* LeaveReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveReportVC.swift; sourceTree = "<group>"; };
+		B5C4CDB32A8398E20016A9DB /* EmployeeCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCircularVC.swift; sourceTree = "<group>"; };
+		B5C4CDB52A839D4B0016A9DB /* EmployeeCircularTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCircularTblCell.swift; sourceTree = "<group>"; };
+		B5C4CDB72A83A2D80016A9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C653C02A6F9A490062AF2F /* HAPS Teacher App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAPS Teacher App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C653C32A6F9A490062AF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C653C52A6F9A490062AF2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5C653CA2A6F9A490062AF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C653CF2A6F9A4B0062AF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C653D12A6F9A4B0062AF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C653E32A6F9CD60062AF2F /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		B5CB8F762A9C82C8003737ED /* PTMRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTMRecordVC.swift; sourceTree = "<group>"; };
+		B5CB8F782A9C833C003737ED /* PTMRecordTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTMRecordTableCell.swift; sourceTree = "<group>"; };
+		B5CCC7952A7778990021E212 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B5CCC7972A7784A10021E212 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		B5CCC7992A7793B00021E212 /* MenuBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarVC.swift; sourceTree = "<group>"; };
+		B5CCC79C2A7798290021E212 /* MenuTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTblCell.swift; sourceTree = "<group>"; };
+		B5CCC79E2A77B9990021E212 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		B5CCE2842ACFD97E00BAC423 /* EmployeeDALRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDALRecordVC.swift; sourceTree = "<group>"; };
+		B5CCE2862ACFDF6500BAC423 /* EmployeeDALRecordTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDALRecordTblCell.swift; sourceTree = "<group>"; };
+		B5CCE2882ACFE8CF00BAC423 /* EPTMRecordTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPTMRecordTblCell.swift; sourceTree = "<group>"; };
+		B5CCE28A2ACFE92C00BAC423 /* EmployeePTMRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePTMRecordVC.swift; sourceTree = "<group>"; };
+		B5CCE28E2ACFF22100BAC423 /* EmployeeLeaveReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLeaveReportVC.swift; sourceTree = "<group>"; };
+		B5CFB4EC2AAEDABD00009104 /* CreateStudentCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStudentCircularVC.swift; sourceTree = "<group>"; };
+		B5D506152A85FBC000440CDF /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		B5D506172A86046500440CDF /* NotificationTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTblCell.swift; sourceTree = "<group>"; };
+		B5D84B962A8627D4005B894B /* ViewImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImageVC.swift; sourceTree = "<group>"; };
+		B5D84B982A863168005B894B /* DailyTaskAgendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTaskAgendaVC.swift; sourceTree = "<group>"; };
+		B5DE18842AA7083E00833F41 /* HomeworkAssignmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkAssignmentVC.swift; sourceTree = "<group>"; };
+		B5DE18862AA7095800833F41 /* HomeWorkDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkDetailVC.swift; sourceTree = "<group>"; };
+		B5DE188A2AA70A0300833F41 /* AssignmentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentDetailVC.swift; sourceTree = "<group>"; };
+		B5DE188E2AA719D800833F41 /* CircularEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularEmployeeVC.swift; sourceTree = "<group>"; };
+		B5DEA2972A835C0100D6FE4F /* ForwardTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardTaskVC.swift; sourceTree = "<group>"; };
+		B5DEA2992A8366F300D6FE4F /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		B5DEA29B2A83703300D6FE4F /* CommentTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTblCell.swift; sourceTree = "<group>"; };
+		B5DEA29D2A83751100D6FE4F /* TaskAssignBymeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssignBymeVC.swift; sourceTree = "<group>"; };
+		B5DEA29F2A83775800D6FE4F /* TaskAssignBymeCollectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssignBymeCollectCell.swift; sourceTree = "<group>"; };
+		B5F187EF2AD3BD41002C1A0A /* EmployeeLeaveRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLeaveRequestVC.swift; sourceTree = "<group>"; };
+		B5F187F12AD3BD8F002C1A0A /* EmpLeaveRequestTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpLeaveRequestTblCell.swift; sourceTree = "<group>"; };
+		B5F187F32AD3D15E002C1A0A /* RequestForExtraDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForExtraDayVC.swift; sourceTree = "<group>"; };
+		B5F187F52AD3D1D3002C1A0A /* RequestForExtraDayTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForExtraDayTblCell.swift; sourceTree = "<group>"; };
+		B5FAB27F2AA7349600449447 /* CircularEmployeeTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularEmployeeTblCell.swift; sourceTree = "<group>"; };
+		B5FDDA272AA1CE0F007DDDE5 /* HostelStudentListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelStudentListTblCell.swift; sourceTree = "<group>"; };
+		B5FDDA292AA1DB7D007DDDE5 /* PTMStudenListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTMStudenListTblCell.swift; sourceTree = "<group>"; };
+		B5FDDA2B2AA1EB51007DDDE5 /* StudentPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPortfolio.swift; sourceTree = "<group>"; };
+		BF89F657896C9C327D9313BF /* Pods-HAPS Teacher App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAPS Teacher App.release.xcconfig"; path = "Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C653BD2A6F9A490062AF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329DA7A9F53220A99EC1CD9E /* Pods_HAPS_Teacher_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201C9A74C1F34BD997C81E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD8BFB333873E8546862BB6 /* Pods_HAPS_Teacher_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		214D809B2AD11D4300B7DEBC /* StudentAttendance Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B53C3FFE2A8DE3FE0042C1BB /* StudentAttendanceVC.swift */,
+				B53C40002A8DEF7D0042C1BB /* ViewAttendanceVC.swift */,
+				B59E89892A8E0804004C1ABD /* ClassesAttendanceVC.swift */,
+			);
+			path = "StudentAttendance Screens";
+			sourceTree = "<group>";
+		};
+		214D809C2AD11DD200B7DEBC /* Student Portfolio VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5FDDA2B2AA1EB51007DDDE5 /* StudentPortfolio.swift */,
+				B50411B82AA5A7B80031867D /* SportsDetailsVC.swift */,
+				B50AAD792AA5C96E000089B9 /* ActivityDetailVC.swift */,
+				B57B53072AA5DD9400CE3B56 /* SportsEntryListVC.swift */,
+				B57B53092AA5DDC200CE3B56 /* ActivityEntryListVC.swift */,
+			);
+			path = "Student Portfolio VCs";
+			sourceTree = "<group>";
+		};
+		214D809D2AD11E9100B7DEBC /* E-Complaints VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B588EC4C2AB1A28F00FEF1A1 /* EComplaintsVC.swift */,
+				B588EC4E2AB1B61900FEF1A1 /* PostEComplaintVC.swift */,
+				B5860B0B2AB2CBEB00BBA3C4 /* EComplaintRecordVC.swift */,
+				B5860B0D2AB2CEC600BBA3C4 /* EComplaintPendingRecordVC.swift */,
+				B5860B0F2AB2CEF100BBA3C4 /* EComplaintResolvedRecordVC.swift */,
+				B5860B152AB2EE3200BBA3C4 /* MyEComplaintRecordVC.swift */,
+				B5860B172AB2EE7E00BBA3C4 /* MyComplaintPendingRecordVC.swift */,
+				B5860B192AB2EEB000BBA3C4 /* MyComplaintResolvedRecordVC.swift */,
+			);
+			path = "E-Complaints VCs";
+			sourceTree = "<group>";
+		};
+		214D809E2AD11ECF00B7DEBC /* Discipline VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5AB0C5E2AAEF05000326BB1 /* DisciplineVC.swift */,
+				B5AB0C602AAEF72100326BB1 /* FeedbackTypeVC.swift */,
+			);
+			path = "Discipline VCs";
+			sourceTree = "<group>";
+		};
+		214D809F2AD11FFB00B7DEBC /* HomeWork and Assignment VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B598EEE72A94AFA900815202 /* HomeWorkVC.swift */,
+				B5DE18842AA7083E00833F41 /* HomeworkAssignmentVC.swift */,
+				B5394E7F2AA0956C00141583 /* HomeWorkHistoryVC.swift */,
+				B5394E812AA095B500141583 /* AssignmentHistoryVC.swift */,
+				B5DE18862AA7095800833F41 /* HomeWorkDetailVC.swift */,
+				B5DE188A2AA70A0300833F41 /* AssignmentDetailVC.swift */,
+			);
+			path = "HomeWork and Assignment VCs";
+			sourceTree = "<group>";
+		};
+		214D80A02AD1203B00B7DEBC /* Common VC */ = {
+			isa = PBXGroup;
+			children = (
+				B52C0F972A94866C00A7E187 /* ListAppearVC.swift */,
+				B5D84B962A8627D4005B894B /* ViewImageVC.swift */,
+				B571FF562A9884200075BBBF /* TeachersListVC.swift */,
+				21D8C3952AA33BF300BB340F /* MultipleSelListVC.swift */,
+			);
+			path = "Common VC";
+			sourceTree = "<group>";
+		};
+		214D80A12AD1209200B7DEBC /* Marks Entry VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B55EF44B2ABAE2C200E67876 /* MarksEntryVC.swift */,
+				B55EF44D2ABAED1400E67876 /* ShowMarksEntryVC.swift */,
+				B555BD4A2ABC0A30006F826D /* MarksEntryAttendanceVC.swift */,
+			);
+			path = "Marks Entry VCs";
+			sourceTree = "<group>";
+		};
+		214D80A22AD121F700B7DEBC /* Employee Circular VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5DE188E2AA719D800833F41 /* CircularEmployeeVC.swift */,
+				B58119842AA9952B000E125C /* ViewCircularEmployeeVC.swift */,
+				B58119862AA9B1A1000E125C /* CircularReadStatusVC.swift */,
+			);
+			path = "Employee Circular VCs";
+			sourceTree = "<group>";
+		};
+		214D80A32AD1225A00B7DEBC /* Student Circular VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B581198A2AA9D81C000E125C /* StudentCircularVC.swift */,
+				B508C0582AAB24F000C1580A /* ViewStudentCircularVC.swift */,
+				B5CFB4EC2AAEDABD00009104 /* CreateStudentCircularVC.swift */,
+			);
+			path = "Student Circular VCs";
+			sourceTree = "<group>";
+		};
+		214D80A42AD1230300B7DEBC /* My Feedback List VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B55EF4412ABAC90700E67876 /* MyFeedbackListVC.swift */,
+				B55EF4432ABACD1700E67876 /* SmileyFeedbackListVC.swift */,
+				B55EF4452ABACD4600E67876 /* FrownyFeedbackListVC.swift */,
+			);
+			path = "My Feedback List VCs";
+			sourceTree = "<group>";
+		};
+		214D80A52AD1234400B7DEBC /* Request For  */ = {
+			isa = PBXGroup;
+			children = (
+				B5860B1F2AB3057700BBA3C4 /* RequestForVC.swift */,
+				B5860B212AB30A8900BBA3C4 /* ExtraDayVC.swift */,
+				B55EF43D2ABABB5200E67876 /* ViewRequsetListVC.swift */,
+			);
+			path = "Request For ";
+			sourceTree = "<group>";
+		};
+		9EA639F287845CAD8A543CB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C559C07AD874A8533252F25 /* Pods-HAPS Teacher App.debug.xcconfig */,
+				BF89F657896C9C327D9313BF /* Pods-HAPS Teacher App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B535F84B2A80EF4E00B0A42E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B535F8472A80E8EF00B0A42E /* TaskManagementVC.swift */,
+				B5C4CDAF2A838E830016A9DB /* TaskManagement */,
+				B5C4CDAD2A838E640016A9DB /* LeaveReportVC.swift */,
+				B5C4CDB32A8398E20016A9DB /* EmployeeCircularVC.swift */,
+				B50F67922A84B4E1007890DB /* ViewCircularVC.swift */,
+				B50F67962A84C0F6007890DB /* DocumentForMeVC.swift */,
+				B5D84B982A863168005B894B /* DailyTaskAgendaVC.swift */,
+				B52F7C2F2A8CA0380088A766 /* LeaveDetailsVC.swift */,
+				B52F7C332A8CA8D40088A766 /* TaskAgendaVC.swift */,
+				B555BD4C2ABC1369006F826D /* HolisticMarksEntryVC.swift */,
+				B555BD4E2ABC1895006F826D /* ShowHolisticMarksEntryVC.swift */,
+				B555BD522ABC2969006F826D /* CBOEntryVC.swift */,
+				B555BD542ABC2BD3006F826D /* ShowCBOEntryVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B535F84C2A80EF6C00B0A42E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCC79E2A77B9990021E212 /* MyProfileVC.swift */,
+				B5C4CDB02A838EC60016A9DB /* MyProfile */,
+				214D809B2AD11D4300B7DEBC /* StudentAttendance Screens */,
+				214D809F2AD11FFB00B7DEBC /* HomeWork and Assignment VCs */,
+				214D80A12AD1209200B7DEBC /* Marks Entry VCs */,
+				B5B52A3C2ADD1AA600557BC7 /* EPTMVCs */,
+				B5B52A3D2ADD1B1300557BC7 /* HostelParentingVCs */,
+				B5B52A3E2ADD1B4700557BC7 /* CalenderVCs */,
+				B5B52A3F2ADD1B6D00557BC7 /* MedicalEntryVCs */,
+				B5B52A402ADD1B9700557BC7 /* HostelRoomVCs */,
+				214D809C2AD11DD200B7DEBC /* Student Portfolio VCs */,
+				B5B52A3B2ADD1A5100557BC7 /* DailyActivityLogVCs */,
+				214D80A22AD121F700B7DEBC /* Employee Circular VCs */,
+				214D80A32AD1225A00B7DEBC /* Student Circular VCs */,
+				214D809E2AD11ECF00B7DEBC /* Discipline VCs */,
+				214D809D2AD11E9100B7DEBC /* E-Complaints VCs */,
+				214D80A52AD1234400B7DEBC /* Request For  */,
+				214D80A42AD1230300B7DEBC /* My Feedback List VCs */,
+				B596E6ED2A960FAE00FDF7D6 /* UploadDocumentVC.swift */,
+				21CE1A512AE654E60014E6D0 /* PostSchoolDiaryVC.swift */,
+				21E64EB22B3AE12F00FFD8EA /* GatePassVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B550AEC22A73877600E239AF /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				B550AEC32A7387A600E239AF /* DashboardCollectCell.swift */,
+				B570F1412A8221F50021841E /* ViewTaskCollectCell.swift */,
+				B5DEA29F2A83775800D6FE4F /* TaskAssignBymeCollectCell.swift */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		B57737052A727D8A008F60A9 /* ViewStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B57737062A727DB5008F60A9 /* ViewBoarder.swift */,
+			);
+			path = ViewStyle;
+			sourceTree = "<group>";
+		};
+		B5B52A3B2ADD1A5100557BC7 /* DailyActivityLogVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B55D448F2A95E92F0063F60A /* DailyActivityLogVC.swift */,
+				B55D44912A95F30F0063F60A /* ViewDALRecordVC.swift */,
+			);
+			path = DailyActivityLogVCs;
+			sourceTree = "<group>";
+		};
+		B5B52A3C2ADD1AA600557BC7 /* EPTMVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5874CE22A989B760073CDFD /* EPTMsprVC.swift */,
+				B5CB8F762A9C82C8003737ED /* PTMRecordVC.swift */,
+			);
+			path = EPTMVCs;
+			sourceTree = "<group>";
+		};
+		B5B52A3D2ADD1B1300557BC7 /* HostelParentingVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5394E7D2AA061BB00141583 /* HostelParentingVC.swift */,
+				B5394E832AA0962900141583 /* HostelParentingListVC.swift */,
+			);
+			path = HostelParentingVCs;
+			sourceTree = "<group>";
+		};
+		B5B52A3E2ADD1B4700557BC7 /* CalenderVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B598EEE92A94B64A00815202 /* AcademicCalenderVC.swift */,
+				B5A44BF82A95CB2400D5349E /* SchoolMatterCalenderVC.swift */,
+			);
+			path = CalenderVCs;
+			sourceTree = "<group>";
+		};
+		B5B52A3F2ADD1B6D00557BC7 /* MedicalEntryVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B5AB0C642AAF15F900326BB1 /* MedicalEntryVC.swift */,
+				B571D8A52AB03F9700E5487E /* MedicalEntryListVC.swift */,
+			);
+			path = MedicalEntryVCs;
+			sourceTree = "<group>";
+		};
+		B5B52A402ADD1B9700557BC7 /* HostelRoomVCs */ = {
+			isa = PBXGroup;
+			children = (
+				B588EC462AB185AE00FEF1A1 /* HostelRoomAllocationVC.swift */,
+				B588EC482AB1927800FEF1A1 /* HostelRoomAllocationDetailVC.swift */,
+			);
+			path = HostelRoomVCs;
+			sourceTree = "<group>";
+		};
+		B5C4CDAF2A838E830016A9DB /* TaskManagement */ = {
+			isa = PBXGroup;
+			children = (
+				B570F13F2A8216FB0021841E /* TaskAssignTomeVC.swift */,
+				B535F8492A80EF4000B0A42E /* AssignTaskVC.swift */,
+				B5DEA2972A835C0100D6FE4F /* ForwardTaskVC.swift */,
+				B5DEA2992A8366F300D6FE4F /* CommentVC.swift */,
+				B5DEA29D2A83751100D6FE4F /* TaskAssignBymeVC.swift */,
+			);
+			path = TaskManagement;
+			sourceTree = "<group>";
+		};
+		B5C4CDB02A838EC60016A9DB /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				B59735F62A78D49C005971AE /* EditProfileVC.swift */,
+				B59735F82A78E297005971AE /* ChangePasswordVC.swift */,
+				B5C1588E2A7B70690041FDF7 /* SalaryDetailsVC.swift */,
+				B54C3EFA2A78F52400CA137F /* MySalaryVC.swift */,
+				B535F83F2A80BECF00B0A42E /* ApplyLeaveVC.swift */,
+				B535F8412A80D09800B0A42E /* LeaveRecordsVC.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		B5C653B72A6F9A490062AF2F = {
+			isa = PBXGroup;
+			children = (
+				211B193A2A81FCF4007952EF /* GoogleService-Info.plist */,
+				B5C653C22A6F9A490062AF2F /* HAPS Teacher App */,
+				B5C653C12A6F9A490062AF2F /* Products */,
+				9EA639F287845CAD8A543CB9 /* Pods */,
+				201C9A74C1F34BD997C81E0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C653C12A6F9A490062AF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653C02A6F9A490062AF2F /* HAPS Teacher App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C653C22A6F9A490062AF2F /* HAPS Teacher App */ = {
+			isa = PBXGroup;
+			children = (
+				215FC5C82AA0AECD009E9B14 /* HAPS Teacher App.entitlements */,
+				B57737052A727D8A008F60A9 /* ViewStyle */,
+				B5C653E12A6F9C0A0062AF2F /* APIManager */,
+				B5C653DE2A6F9B5C0062AF2F /* Fonts */,
+				B5C653DD2A6F9B520062AF2F /* Helper */,
+				B5C653D72A6F9A6E0062AF2F /* Common */,
+				B5C653D82A6F9A820062AF2F /* Authorization */,
+				B5C653E52A6F9CE10062AF2F /* Dashboard */,
+				B5C653CE2A6F9A4B0062AF2F /* LaunchScreen.storyboard */,
+				B5C653DC2A6F9AEC0062AF2F /* AppAssets */,
+				B5C653D12A6F9A4B0062AF2F /* Info.plist */,
+			);
+			path = "HAPS Teacher App";
+			sourceTree = "<group>";
+		};
+		B5C653D72A6F9A6E0062AF2F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653C52A6F9A490062AF2F /* SceneDelegate.swift */,
+				B5C653C32A6F9A490062AF2F /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B5C653D82A6F9A820062AF2F /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653D92A6F9A9C0062AF2F /* Model */,
+				B5C653DB2A6F9ABB0062AF2F /* Controller */,
+				B5C653DA2A6F9AB10062AF2F /* View */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		B5C653D92A6F9A9C0062AF2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCC7952A7778990021E212 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5C653DA2A6F9AB10062AF2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653C92A6F9A490062AF2F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5C653DB2A6F9ABB0062AF2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653E32A6F9CD60062AF2F /* LogInVC.swift */,
+				B5C158902A7B73F40041FDF7 /* SplashScreenVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5C653DC2A6F9AEC0062AF2F /* AppAssets */ = {
+			isa = PBXGroup;
+			children = (
+				B550AEC72A73A03A00E239AF /* ColorAppAssets.xcassets */,
+				B5C4CDB72A83A2D80016A9DB /* Assets.xcassets */,
+			);
+			path = AppAssets;
+			sourceTree = "<group>";
+		};
+		B5C653DD2A6F9B520062AF2F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B5C653E22A6F9C590062AF2F /* CommonObject */,
+				B5C653E02A6F9BF20062AF2F /* AppStrings */,
+				B5C653DF2A6F9BDA0062AF2F /* AppExtension */,
+				B550AED12A73AEC400E239AF /* AppMessages.swift */,
+				B5CCC7972A7784A10021E212 /* UserDefault.swift */,
+				21ABFC752A94C92800BAFB14 /* Protocols.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B5C653DE2A6F9B5C0062AF2F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2109B8872AC7F02C00D1C7A3 /* Roboto-Bold.ttf */,
+				2109B8862AC7F02C00D1C7A3 /* Roboto-Medium.ttf */,
+				2109B8882AC7F02C00D1C7A3 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B5C653DF2A6F9BDA0062AF2F /* AppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B550AEC92A73A0D600E239AF /* AppExtension.swift */,
+				2185711F2A98B8A7005B0E03 /* UIColorExtension.swift */,
+				218571212A98B8E2005B0E03 /* UITextFieldExtension.swift */,
+				218571232A98B903005B0E03 /* UIImageExtension.swift */,
+				210419B22A9DCC4A000C3FA4 /* UIViewExtensions.swift */,
+			);
+			path = AppExtension;
+			sourceTree = "<group>";
+		};
+		B5C653E02A6F9BF20062AF2F /* AppStrings */ = {
+			isa = PBXGroup;
+			children = (
+				B550AEC52A739E8600E239AF /* AppString.swift */,
+			);
+			path = AppStrings;
+			sourceTree = "<group>";
+		};
+		B5C653E12A6F9C0A0062AF2F /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				B550AECB2A73A64100E239AF /* APILinks.swift */,
+				B550AECD2A73A86700E239AF /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		B5C653E22A6F9C590062AF2F /* CommonObject */ = {
+			isa = PBXGroup;
+			children = (
+				B550AECF2A73AC9B00E239AF /* CommonObject.swift */,
+			);
+			path = CommonObject;
+			sourceTree = "<group>";
+		};
+		B5C653E52A6F9CE10062AF2F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCC79B2A7798000021E212 /* TableCell */,
+				B550AEC22A73877600E239AF /* CollectionCells */,
+				B5C653E82A6F9D0D0062AF2F /* Model */,
+				B5C653E72A6F9CFF0062AF2F /* Controller */,
+				B5C653E62A6F9CEE0062AF2F /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B5C653E62A6F9CEE0062AF2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B57737032A72756F008F60A9 /* Dashboard.storyboard */,
+				21E64EB42B3AE22000FFD8EA /* ProfileDashboard.storyboard */,
+				213E68FA2B3AE6A1004FE81E /* StudentPortfolio.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5C653E72A6F9CFF0062AF2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCE2832ACFD88F00BAC423 /* Principal Dashboard */,
+				B59D42BE2A7A2CC100A58743 /* NavigationVC.swift */,
+				B550AEC02A73872500E239AF /* DashboardVC.swift */,
+				B535F84B2A80EF4E00B0A42E /* Dashboard */,
+				B5CCC7992A7793B00021E212 /* MenuBarVC.swift */,
+				B535F84C2A80EF6C00B0A42E /* Menu */,
+				214D80A02AD1203B00B7DEBC /* Common VC */,
+				B5D506152A85FBC000440CDF /* NotificationVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5C653E82A6F9D0D0062AF2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B59D42C22A7A3AEA00A58743 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5CCC79B2A7798000021E212 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCC79C2A7798290021E212 /* MenuTblCell.swift */,
+				B59D42BC2A7A1D2C00A58743 /* MySalaryTblCell.swift */,
+				21D182EC2A7E5FBD00B407BA /* EarningDetailTblVCell.swift */,
+				B535F8452A80DDC900B0A42E /* LeaveRecordsTblCell.swift */,
+				B570F1432A8231090021841E /* ViewTaskTblCell.swift */,
+				B5DEA29B2A83703300D6FE4F /* CommentTblCell.swift */,
+				B5C4CDAB2A8383DA0016A9DB /* TaskBymeTblCell.swift */,
+				B5C4CDB52A839D4B0016A9DB /* EmployeeCircularTblCell.swift */,
+				B50F67942A84B679007890DB /* ViewCircularTblCell.swift */,
+				B5885A772A84EA17008402A1 /* ViewDocumentTblCell.swift */,
+				B5D506172A86046500440CDF /* NotificationTblCell.swift */,
+				B52F7C312A8CA4B80088A766 /* LeaveDetailsTblCell.swift */,
+				B52F7C352A8CB2E20088A766 /* TaskAgendaTblCell.swift */,
+				B59E898B2A8E0918004C1ABD /* MainClassAttendanceTblCell.swift */,
+				B52C0F992A94869400A7E187 /* ListAppearTableCell.swift */,
+				B5A44BFA2A95CB5E00D5349E /* SchoolCalenderTblCell.swift */,
+				B596E6EB2A960A1A00FDF7D6 /* ViewActiveLogTblCell.swift */,
+				B571FF582A9884440075BBBF /* TeacherListTblCell.swift */,
+				B5874CE42A98AEFA0073CDFD /* UploadDocumentViewTblCell.swift */,
+				B5CB8F782A9C833C003737ED /* PTMRecordTableCell.swift */,
+				B5394E852AA0966400141583 /* HomeWorkHistoryTblCell.swift */,
+				B5394E872AA0968C00141583 /* AssignmentHistoryTblCell.swift */,
+				B5394E892AA096B600141583 /* HostelListTblCell.swift */,
+				B5FDDA272AA1CE0F007DDDE5 /* HostelStudentListTblCell.swift */,
+				B5FDDA292AA1DB7D007DDDE5 /* PTMStudenListTblCell.swift */,
+				21D8C3972AA33CE600BB340F /* MultipleSelListTblVCell.swift */,
+				B57B530B2AA5DE1400CE3B56 /* SportsEntryListTblCell.swift */,
+				B57B530D2AA5DE3600CE3B56 /* ActivityEntryListTblCell.swift */,
+				B5FAB27F2AA7349600449447 /* CircularEmployeeTblCell.swift */,
+				B58119882AA9CA3B000E125C /* CircularStatusTblCell.swift */,
+				B50DAA722AAAF156001DC5E5 /* StudentCircularTblCell.swift */,
+				B508C05A2AAB255600C1580A /* ViewStudentCircularTblCell.swift */,
+				B5AB0C622AAEF78500326BB1 /* DisciplineStudentListTblCell.swift */,
+				B571D8A32AB03B1900E5487E /* MedicalHistoryTblCell.swift */,
+				B571D8A72AB0402800E5487E /* MedicalEntryListTblCell.swift */,
+				B588EC4A2AB192BC00FEF1A1 /* RoomAllocationDetailTblCell.swift */,
+				B5860B112AB2D2B200BBA3C4 /* EComplaintPandingRecordTblCell.swift */,
+				B5860B132AB2D2F000BBA3C4 /* EComplaintResolvedRecordTblCell.swift */,
+				B5860B1B2AB2EEF500BBA3C4 /* MyPendingComplaintTblCell.swift */,
+				B5860B1D2AB2EF2C00BBA3C4 /* MyResolvedComplaintTblCell.swift */,
+				B55EF43F2ABABBB200E67876 /* ViewRequsetDetailTblCell.swift */,
+				B55EF4472ABACEDC00E67876 /* SmileyFeedbackListTblCell.swift */,
+				B55EF4492ABACF0F00E67876 /* FrownyFeedbackListTblCell.swift */,
+				B55EF44F2ABAF59E00E67876 /* ShowMarksEntryTblCell.swift */,
+				B555BD502ABC225A006F826D /* HolisticMarksEntryTblCell.swift */,
+				B555BD562ABC2F2D006F826D /* ShowCBOEntryTblCell.swift */,
+				B5CCE2862ACFDF6500BAC423 /* EmployeeDALRecordTblCell.swift */,
+				B5CCE2882ACFE8CF00BAC423 /* EPTMRecordTblCell.swift */,
+				B5F187F12AD3BD8F002C1A0A /* EmpLeaveRequestTblCell.swift */,
+				B5F187F52AD3D1D3002C1A0A /* RequestForExtraDayTblCell.swift */,
+				B5862FAE2AD3FF3C00C55BAD /* PandingResolveComplaintTblCell.swift */,
+				B593AA842ADFA3520024FC61 /* FeedbackSuggestionTblCell.swift */,
+				213E68FC2B3AE9EC004FE81E /* GatePassTblViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		B5CCE2832ACFD88F00BAC423 /* Principal Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B5CCE2842ACFD97E00BAC423 /* EmployeeDALRecordVC.swift */,
+				B5CCE28A2ACFE92C00BAC423 /* EmployeePTMRecordVC.swift */,
+				B5CCE28E2ACFF22100BAC423 /* EmployeeLeaveReportVC.swift */,
+				B5F187EF2AD3BD41002C1A0A /* EmployeeLeaveRequestVC.swift */,
+				B59DC8AC2ADE739E00BC6BDB /* EmployeeRequestVC.swift */,
+				B5F187F32AD3D15E002C1A0A /* RequestForExtraDayVC.swift */,
+				B5862FAA2AD3EADA00C55BAD /* EmpComplaintRecordVC.swift */,
+				B5862FB02AD3FF7800C55BAD /* PandingResolveComplaintVC.swift */,
+				B593AA822ADFA2F70024FC61 /* FeedbackSuggestionVC.swift */,
+			);
+			path = "Principal Dashboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C653BF2A6F9A490062AF2F /* HAPS Teacher App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C653D42A6F9A4B0062AF2F /* Build configuration list for PBXNativeTarget "HAPS Teacher App" */;
+			buildPhases = (
+				250C1D443FFB0782CFA2125E /* [CP] Check Pods Manifest.lock */,
+				B5C653BC2A6F9A490062AF2F /* Sources */,
+				B5C653BD2A6F9A490062AF2F /* Frameworks */,
+				B5C653BE2A6F9A490062AF2F /* Resources */,
+				9AD6A9DD00197F2249804FD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HAPS Teacher App";
+			productName = "HAPS Teacher App";
+			productReference = B5C653C02A6F9A490062AF2F /* HAPS Teacher App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C653B82A6F9A490062AF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B5C653BF2A6F9A490062AF2F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B5C653BB2A6F9A490062AF2F /* Build configuration list for PBXProject "HAPS Teacher App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C653B72A6F9A490062AF2F;
+			productRefGroup = B5C653C12A6F9A490062AF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C653BF2A6F9A490062AF2F /* HAPS Teacher App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C653BE2A6F9A490062AF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2109B8892AC7F02C00D1C7A3 /* Roboto-Medium.ttf in Resources */,
+				213E68FB2B3AE6A1004FE81E /* StudentPortfolio.storyboard in Resources */,
+				B5C653D02A6F9A4B0062AF2F /* LaunchScreen.storyboard in Resources */,
+				2109B88B2AC7F02C00D1C7A3 /* Roboto-Regular.ttf in Resources */,
+				B5C4CDB82A83A2D80016A9DB /* Assets.xcassets in Resources */,
+				21E64EB52B3AE22000FFD8EA /* ProfileDashboard.storyboard in Resources */,
+				B57737042A72756F008F60A9 /* Dashboard.storyboard in Resources */,
+				B550AEC82A73A03A00E239AF /* ColorAppAssets.xcassets in Resources */,
+				211B193B2A81FCF4007952EF /* GoogleService-Info.plist in Resources */,
+				B5C653CB2A6F9A490062AF2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		250C1D443FFB0782CFA2125E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAPS Teacher App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD6A9DD00197F2249804FD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C653BC2A6F9A490062AF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59DC8AD2ADE739E00BC6BDB /* EmployeeRequestVC.swift in Sources */,
+				B5F187F22AD3BD8F002C1A0A /* EmpLeaveRequestTblCell.swift in Sources */,
+				B5CFB4ED2AAEDABD00009104 /* CreateStudentCircularVC.swift in Sources */,
+				B59735F92A78E297005971AE /* ChangePasswordVC.swift in Sources */,
+				B5394E7E2AA061BB00141583 /* HostelParentingVC.swift in Sources */,
+				B59E898C2A8E0918004C1ABD /* MainClassAttendanceTblCell.swift in Sources */,
+				B550AEC62A739E8600E239AF /* AppString.swift in Sources */,
+				B58119872AA9B1A1000E125C /* CircularReadStatusVC.swift in Sources */,
+				B550AED02A73AC9B00E239AF /* CommonObject.swift in Sources */,
+				B5A44BF92A95CB2400D5349E /* SchoolMatterCalenderVC.swift in Sources */,
+				B5874CE32A989B760073CDFD /* EPTMsprVC.swift in Sources */,
+				B5862FAB2AD3EADA00C55BAD /* EmpComplaintRecordVC.swift in Sources */,
+				B55EF43E2ABABB5200E67876 /* ViewRequsetListVC.swift in Sources */,
+				B5DEA29C2A83703300D6FE4F /* CommentTblCell.swift in Sources */,
+				B5C1588F2A7B70690041FDF7 /* SalaryDetailsVC.swift in Sources */,
+				B555BD532ABC2969006F826D /* CBOEntryVC.swift in Sources */,
+				B5C653C42A6F9A490062AF2F /* AppDelegate.swift in Sources */,
+				B55EF4402ABABBB200E67876 /* ViewRequsetDetailTblCell.swift in Sources */,
+				B50AAD7A2AA5C96E000089B9 /* ActivityDetailVC.swift in Sources */,
+				B570F1422A8221F50021841E /* ViewTaskCollectCell.swift in Sources */,
+				B59D42C32A7A3AEA00A58743 /* Models.swift in Sources */,
+				B508C05B2AAB255600C1580A /* ViewStudentCircularTblCell.swift in Sources */,
+				B5860B102AB2CEF100BBA3C4 /* EComplaintResolvedRecordVC.swift in Sources */,
+				B581198B2AA9D81C000E125C /* StudentCircularVC.swift in Sources */,
+				B52F7C302A8CA0380088A766 /* LeaveDetailsVC.swift in Sources */,
+				B5CCC79D2A7798290021E212 /* MenuTblCell.swift in Sources */,
+				B5C4CDAC2A8383DA0016A9DB /* TaskBymeTblCell.swift in Sources */,
+				B5A44BFB2A95CB5E00D5349E /* SchoolCalenderTblCell.swift in Sources */,
+				218571222A98B8E2005B0E03 /* UITextFieldExtension.swift in Sources */,
+				B59735F72A78D49C005971AE /* EditProfileVC.swift in Sources */,
+				B535F8422A80D09800B0A42E /* LeaveRecordsVC.swift in Sources */,
+				B52F7C342A8CA8D40088A766 /* TaskAgendaVC.swift in Sources */,
+				B55EF44E2ABAED1400E67876 /* ShowMarksEntryVC.swift in Sources */,
+				B550AECE2A73A86700E239AF /* APIManager.swift in Sources */,
+				B5860B0E2AB2CEC600BBA3C4 /* EComplaintPendingRecordVC.swift in Sources */,
+				B593AA852ADFA3520024FC61 /* FeedbackSuggestionTblCell.swift in Sources */,
+				B5AB0C632AAEF78600326BB1 /* DisciplineStudentListTblCell.swift in Sources */,
+				B588EC4B2AB192BC00FEF1A1 /* RoomAllocationDetailTblCell.swift in Sources */,
+				B58119892AA9CA3B000E125C /* CircularStatusTblCell.swift in Sources */,
+				B550AEC12A73872500E239AF /* DashboardVC.swift in Sources */,
+				B5CCC7962A7778990021E212 /* UserModel.swift in Sources */,
+				B55D44922A95F30F0063F60A /* ViewDALRecordVC.swift in Sources */,
+				B5CB8F772A9C82C8003737ED /* PTMRecordVC.swift in Sources */,
+				B5DE18872AA7095800833F41 /* HomeWorkDetailVC.swift in Sources */,
+				B588EC472AB185AE00FEF1A1 /* HostelRoomAllocationVC.swift in Sources */,
+				21D8C3982AA33CE600BB340F /* MultipleSelListTblVCell.swift in Sources */,
+				218571202A98B8A7005B0E03 /* UIColorExtension.swift in Sources */,
+				21D8C3962AA33BF300BB340F /* MultipleSelListVC.swift in Sources */,
+				B5885A782A84EA17008402A1 /* ViewDocumentTblCell.swift in Sources */,
+				B50F67972A84C0F6007890DB /* DocumentForMeVC.swift in Sources */,
+				B55EF4462ABACD4600E67876 /* FrownyFeedbackListVC.swift in Sources */,
+				B5860B162AB2EE3200BBA3C4 /* MyEComplaintRecordVC.swift in Sources */,
+				B5C4CDAE2A838E640016A9DB /* LeaveReportVC.swift in Sources */,
+				213E68FD2B3AE9EC004FE81E /* GatePassTblViewCell.swift in Sources */,
+				B58119852AA9952B000E125C /* ViewCircularEmployeeVC.swift in Sources */,
+				B571D8A42AB03B1900E5487E /* MedicalHistoryTblCell.swift in Sources */,
+				B550AECA2A73A0D600E239AF /* AppExtension.swift in Sources */,
+				B555BD572ABC2F2D006F826D /* ShowCBOEntryTblCell.swift in Sources */,
+				B5FDDA2A2AA1DB7D007DDDE5 /* PTMStudenListTblCell.swift in Sources */,
+				21CE1A522AE654E60014E6D0 /* PostSchoolDiaryVC.swift in Sources */,
+				B5C653C62A6F9A490062AF2F /* SceneDelegate.swift in Sources */,
+				B5860B182AB2EE7E00BBA3C4 /* MyComplaintPendingRecordVC.swift in Sources */,
+				B5CCC7982A7784A10021E212 /* UserDefault.swift in Sources */,
+				B588EC492AB1927800FEF1A1 /* HostelRoomAllocationDetailVC.swift in Sources */,
+				B59D42BF2A7A2CC100A58743 /* NavigationVC.swift in Sources */,
+				B5D506182A86046500440CDF /* NotificationTblCell.swift in Sources */,
+				B57737072A727DB5008F60A9 /* ViewBoarder.swift in Sources */,
+				B5CCE28B2ACFE92C00BAC423 /* EmployeePTMRecordVC.swift in Sources */,
+				B571D8A62AB03F9700E5487E /* MedicalEntryListVC.swift in Sources */,
+				B59D42BD2A7A1D2C00A58743 /* MySalaryTblCell.swift in Sources */,
+				B555BD552ABC2BD3006F826D /* ShowCBOEntryVC.swift in Sources */,
+				218571242A98B903005B0E03 /* UIImageExtension.swift in Sources */,
+				B5CCC79F2A77B9990021E212 /* MyProfileVC.swift in Sources */,
+				B5C4CDB42A8398E20016A9DB /* EmployeeCircularVC.swift in Sources */,
+				B57B530E2AA5DE3600CE3B56 /* ActivityEntryListTblCell.swift in Sources */,
+				B588EC4D2AB1A28F00FEF1A1 /* EComplaintsVC.swift in Sources */,
+				21D182ED2A7E5FBD00B407BA /* EarningDetailTblVCell.swift in Sources */,
+				B5860B1C2AB2EEF500BBA3C4 /* MyPendingComplaintTblCell.swift in Sources */,
+				B593AA832ADFA2F70024FC61 /* FeedbackSuggestionVC.swift in Sources */,
+				B555BD4B2ABC0A30006F826D /* MarksEntryAttendanceVC.swift in Sources */,
+				B5CCE2852ACFD97E00BAC423 /* EmployeeDALRecordVC.swift in Sources */,
+				B5DEA29E2A83751100D6FE4F /* TaskAssignBymeVC.swift in Sources */,
+				B535F8482A80E8EF00B0A42E /* TaskManagementVC.swift in Sources */,
+				B5CCE2892ACFE8CF00BAC423 /* EPTMRecordTblCell.swift in Sources */,
+				B55EF44A2ABACF0F00E67876 /* FrownyFeedbackListTblCell.swift in Sources */,
+				B5394E882AA0968C00141583 /* AssignmentHistoryTblCell.swift in Sources */,
+				B5862FB12AD3FF7800C55BAD /* PandingResolveComplaintVC.swift in Sources */,
+				B5CCE2872ACFDF6500BAC423 /* EmployeeDALRecordTblCell.swift in Sources */,
+				B508C0592AAB24F000C1580A /* ViewStudentCircularVC.swift in Sources */,
+				B5DE188B2AA70A0300833F41 /* AssignmentDetailVC.swift in Sources */,
+				B5DE188F2AA719D800833F41 /* CircularEmployeeVC.swift in Sources */,
+				B50DAA732AAAF156001DC5E5 /* StudentCircularTblCell.swift in Sources */,
+				B5C653E42A6F9CD60062AF2F /* LogInVC.swift in Sources */,
+				210419B32A9DCC4A000C3FA4 /* UIViewExtensions.swift in Sources */,
+				B5CB8F792A9C833C003737ED /* PTMRecordTableCell.swift in Sources */,
+				21ABFC762A94C92800BAFB14 /* Protocols.swift in Sources */,
+				B535F8402A80BECF00B0A42E /* ApplyLeaveVC.swift in Sources */,
+				B535F8462A80DDC900B0A42E /* LeaveRecordsTblCell.swift in Sources */,
+				B5FDDA282AA1CE0F007DDDE5 /* HostelStudentListTblCell.swift in Sources */,
+				B53C40012A8DEF7D0042C1BB /* ViewAttendanceVC.swift in Sources */,
+				B5F187F42AD3D15E002C1A0A /* RequestForExtraDayVC.swift in Sources */,
+				B5AB0C5F2AAEF05000326BB1 /* DisciplineVC.swift in Sources */,
+				B50F67932A84B4E1007890DB /* ViewCircularVC.swift in Sources */,
+				B555BD4F2ABC1895006F826D /* ShowHolisticMarksEntryVC.swift in Sources */,
+				B5860B0C2AB2CBEB00BBA3C4 /* EComplaintRecordVC.swift in Sources */,
+				B55D44902A95E92F0063F60A /* DailyActivityLogVC.swift in Sources */,
+				B555BD512ABC225A006F826D /* HolisticMarksEntryTblCell.swift in Sources */,
+				B5CCC79A2A7793B00021E212 /* MenuBarVC.swift in Sources */,
+				B5DEA2A02A83775800D6FE4F /* TaskAssignBymeCollectCell.swift in Sources */,
+				B598EEE82A94AFA900815202 /* HomeWorkVC.swift in Sources */,
+				B5860B142AB2D2F000BBA3C4 /* EComplaintResolvedRecordTblCell.swift in Sources */,
+				B571FF592A9884440075BBBF /* TeacherListTblCell.swift in Sources */,
+				B596E6EE2A960FAE00FDF7D6 /* UploadDocumentVC.swift in Sources */,
+				B5C4CDB62A839D4B0016A9DB /* EmployeeCircularTblCell.swift in Sources */,
+				B596E6EC2A960A1A00FDF7D6 /* ViewActiveLogTblCell.swift in Sources */,
+				B570F1402A8216FB0021841E /* TaskAssignTomeVC.swift in Sources */,
+				B5F187F62AD3D1D3002C1A0A /* RequestForExtraDayTblCell.swift in Sources */,
+				B5DE18852AA7083E00833F41 /* HomeworkAssignmentVC.swift in Sources */,
+				B5394E822AA095B500141583 /* AssignmentHistoryVC.swift in Sources */,
+				B55EF4482ABACEDC00E67876 /* SmileyFeedbackListTblCell.swift in Sources */,
+				B571FF572A9884200075BBBF /* TeachersListVC.swift in Sources */,
+				21E64EB32B3AE12F00FFD8EA /* GatePassVC.swift in Sources */,
+				B5860B1E2AB2EF2C00BBA3C4 /* MyResolvedComplaintTblCell.swift in Sources */,
+				B57B53082AA5DD9400CE3B56 /* SportsEntryListVC.swift in Sources */,
+				B5860B202AB3057700BBA3C4 /* RequestForVC.swift in Sources */,
+				B52C0F9A2A94869400A7E187 /* ListAppearTableCell.swift in Sources */,
+				B50411B92AA5A7B80031867D /* SportsDetailsVC.swift in Sources */,
+				B550AED22A73AEC400E239AF /* AppMessages.swift in Sources */,
+				B5860B222AB30A8900BBA3C4 /* ExtraDayVC.swift in Sources */,
+				B52C0F982A94866C00A7E187 /* ListAppearVC.swift in Sources */,
+				B52F7C322A8CA4B80088A766 /* LeaveDetailsTblCell.swift in Sources */,
+				B5AB0C652AAF15F900326BB1 /* MedicalEntryVC.swift in Sources */,
+				B50F67952A84B679007890DB /* ViewCircularTblCell.swift in Sources */,
+				B55EF4502ABAF59E00E67876 /* ShowMarksEntryTblCell.swift in Sources */,
+				B5394E862AA0966400141583 /* HomeWorkHistoryTblCell.swift in Sources */,
+				B5394E842AA0962900141583 /* HostelParentingListVC.swift in Sources */,
+				B571D8A82AB0402800E5487E /* MedicalEntryListTblCell.swift in Sources */,
+				B598EEEA2A94B64A00815202 /* AcademicCalenderVC.swift in Sources */,
+				B5D84B972A8627D4005B894B /* ViewImageVC.swift in Sources */,
+				B5AB0C612AAEF72100326BB1 /* FeedbackTypeVC.swift in Sources */,
+				B55EF44C2ABAE2C200E67876 /* MarksEntryVC.swift in Sources */,
+				B5CCE28F2ACFF22100BAC423 /* EmployeeLeaveReportVC.swift in Sources */,
+				B570F1442A8231090021841E /* ViewTaskTblCell.swift in Sources */,
+				B5874CE52A98AEFA0073CDFD /* UploadDocumentViewTblCell.swift in Sources */,
+				B5F187F02AD3BD41002C1A0A /* EmployeeLeaveRequestVC.swift in Sources */,
+				B5D506162A85FBC000440CDF /* NotificationVC.swift in Sources */,
+				B555BD4D2ABC1369006F826D /* HolisticMarksEntryVC.swift in Sources */,
+				B5862FAF2AD3FF3C00C55BAD /* PandingResolveComplaintTblCell.swift in Sources */,
+				B5FAB2802AA7349600449447 /* CircularEmployeeTblCell.swift in Sources */,
+				B52F7C362A8CB2E20088A766 /* TaskAgendaTblCell.swift in Sources */,
+				B588EC4F2AB1B61900FEF1A1 /* PostEComplaintVC.swift in Sources */,
+				B5FDDA2C2AA1EB51007DDDE5 /* StudentPortfolio.swift in Sources */,
+				B57B530C2AA5DE1400CE3B56 /* SportsEntryListTblCell.swift in Sources */,
+				B550AECC2A73A64100E239AF /* APILinks.swift in Sources */,
+				B59E898A2A8E0804004C1ABD /* ClassesAttendanceVC.swift in Sources */,
+				B53C3FFF2A8DE3FE0042C1BB /* StudentAttendanceVC.swift in Sources */,
+				B5394E8A2AA096B700141583 /* HostelListTblCell.swift in Sources */,
+				B54C3EFB2A78F52400CA137F /* MySalaryVC.swift in Sources */,
+				B57B530A2AA5DDC200CE3B56 /* ActivityEntryListVC.swift in Sources */,
+				B5DEA29A2A8366F300D6FE4F /* CommentVC.swift in Sources */,
+				B5C158912A7B73F40041FDF7 /* SplashScreenVC.swift in Sources */,
+				B535F84A2A80EF4000B0A42E /* AssignTaskVC.swift in Sources */,
+				B55EF4422ABAC90700E67876 /* MyFeedbackListVC.swift in Sources */,
+				B5D84B992A863168005B894B /* DailyTaskAgendaVC.swift in Sources */,
+				B55EF4442ABACD1700E67876 /* SmileyFeedbackListVC.swift in Sources */,
+				B5860B1A2AB2EEB000BBA3C4 /* MyComplaintResolvedRecordVC.swift in Sources */,
+				B5394E802AA0956C00141583 /* HomeWorkHistoryVC.swift in Sources */,
+				B5860B122AB2D2B200BBA3C4 /* EComplaintPandingRecordTblCell.swift in Sources */,
+				B550AEC42A7387A600E239AF /* DashboardCollectCell.swift in Sources */,
+				B5DEA2982A835C0100D6FE4F /* ForwardTaskVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5C653C92A6F9A490062AF2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C653CA2A6F9A490062AF2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C653CE2A6F9A4B0062AF2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C653CF2A6F9A4B0062AF2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C653D22A6F9A4B0062AF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C653D32A6F9A4B0062AF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C653D52A6F9A4B0062AF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C559C07AD874A8533252F25 /* Pods-HAPS Teacher App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "HAPS Teacher App/HAPS Teacher App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A56D6QNBL;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HAPS Teacher App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application would like to use a device camera to capture and upload images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The application would like to use a device camera to capture and upload images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tdv.RKCRajkot-Teacher-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5C653D62A6F9A4B0062AF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF89F657896C9C327D9313BF /* Pods-HAPS Teacher App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "HAPS Teacher App/HAPS Teacher App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A56D6QNBL;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HAPS Teacher App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The application would like to use a device camera to capture and upload images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The application would like to use a device camera to capture and upload images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raaise.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C653BB2A6F9A490062AF2F /* Build configuration list for PBXProject "HAPS Teacher App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C653D22A6F9A4B0062AF2F /* Debug */,
+				B5C653D32A6F9A4B0062AF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C653D42A6F9A4B0062AF2F /* Build configuration list for PBXNativeTarget "HAPS Teacher App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C653D52A6F9A4B0062AF2F /* Debug */,
+				B5C653D62A6F9A4B0062AF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C653B82A6F9A490062AF2F /* Project object */;
+}
