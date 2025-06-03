@@ -8,7 +8,7 @@
 import Foundation
 
 //let BASE_URL = "https://himacademy.in/teacher/api/"
-let BASE_URL = "https://dukeinfosys.com/rajkumar/teacher/api/"
+let BASE_URL = "https://www.rkcerp.in/teacher/api/"
 
 //let BASE_URL = "https://www.sanawar.edu.in/teacher/api" // Sanawar teacher app base url
 

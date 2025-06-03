@@ -10,7 +10,6 @@
 		210419B32A9DCC4A000C3FA4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210419B22A9DCC4A000C3FA4 /* UIViewExtensions.swift */; };
 		2109B8892AC7F02C00D1C7A3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2109B8862AC7F02C00D1C7A3 /* Roboto-Medium.ttf */; };
 		2109B88B2AC7F02C00D1C7A3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2109B8882AC7F02C00D1C7A3 /* Roboto-Regular.ttf */; };
-		211B193B2A81FCF4007952EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 211B193A2A81FCF4007952EF /* GoogleService-Info.plist */; };
 		213E68FB2B3AE6A1004FE81E /* StudentPortfolio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E68FA2B3AE6A1004FE81E /* StudentPortfolio.storyboard */; };
 		213E68FD2B3AE9EC004FE81E /* GatePassTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E68FC2B3AE9EC004FE81E /* GatePassTblViewCell.swift */; };
 		218571202A98B8A7005B0E03 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185711F2A98B8A7005B0E03 /* UIColorExtension.swift */; };
@@ -24,6 +23,7 @@
 		21E64EB32B3AE12F00FFD8EA /* GatePassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E64EB22B3AE12F00FFD8EA /* GatePassVC.swift */; };
 		21E64EB52B3AE22000FFD8EA /* ProfileDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E64EB42B3AE22000FFD8EA /* ProfileDashboard.storyboard */; };
 		329DA7A9F53220A99EC1CD9E /* Pods_HAPS_Teacher_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD8BFB333873E8546862BB6 /* Pods_HAPS_Teacher_App.framework */; };
+		354966F92DEEFB1300C0015E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 354966F82DEEFB1300C0015E /* GoogleService-Info.plist */; };
 		B50411B92AA5A7B80031867D /* SportsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50411B82AA5A7B80031867D /* SportsDetailsVC.swift */; };
 		B508C0592AAB24F000C1580A /* ViewStudentCircularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508C0582AAB24F000C1580A /* ViewStudentCircularVC.swift */; };
 		B508C05B2AAB255600C1580A /* ViewStudentCircularTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508C05A2AAB255600C1580A /* ViewStudentCircularTblCell.swift */; };
@@ -196,7 +196,6 @@
 		2109B8862AC7F02C00D1C7A3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		2109B8872AC7F02C00D1C7A3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		2109B8882AC7F02C00D1C7A3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		211B193A2A81FCF4007952EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		213E68FA2B3AE6A1004FE81E /* StudentPortfolio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentPortfolio.storyboard; sourceTree = "<group>"; };
 		213E68FC2B3AE9EC004FE81E /* GatePassTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatePassTblViewCell.swift; sourceTree = "<group>"; };
 		215FC5C82AA0AECD009E9B14 /* HAPS Teacher App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HAPS Teacher App.entitlements"; sourceTree = "<group>"; };
@@ -210,6 +209,7 @@
 		21D8C3972AA33CE600BB340F /* MultipleSelListTblVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelListTblVCell.swift; sourceTree = "<group>"; };
 		21E64EB22B3AE12F00FFD8EA /* GatePassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatePassVC.swift; sourceTree = "<group>"; };
 		21E64EB42B3AE22000FFD8EA /* ProfileDashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDashboard.storyboard; sourceTree = "<group>"; };
+		354966F82DEEFB1300C0015E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C559C07AD874A8533252F25 /* Pods-HAPS Teacher App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAPS Teacher App.debug.xcconfig"; path = "Target Support Files/Pods-HAPS Teacher App/Pods-HAPS Teacher App.debug.xcconfig"; sourceTree = "<group>"; };
 		B50411B82AA5A7B80031867D /* SportsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsDetailsVC.swift; sourceTree = "<group>"; };
 		B508C0582AAB24F000C1580A /* ViewStudentCircularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStudentCircularVC.swift; sourceTree = "<group>"; };
@@ -677,7 +677,7 @@
 		B5C653B72A6F9A490062AF2F = {
 			isa = PBXGroup;
 			children = (
-				211B193A2A81FCF4007952EF /* GoogleService-Info.plist */,
+				354966F82DEEFB1300C0015E /* GoogleService-Info.plist */,
 				B5C653C22A6F9A490062AF2F /* HAPS Teacher App */,
 				B5C653C12A6F9A490062AF2F /* Products */,
 				9EA639F287845CAD8A543CB9 /* Pods */,
@@ -1012,8 +1012,8 @@
 				B5C4CDB82A83A2D80016A9DB /* Assets.xcassets in Resources */,
 				21E64EB52B3AE22000FFD8EA /* ProfileDashboard.storyboard in Resources */,
 				B57737042A72756F008F60A9 /* Dashboard.storyboard in Resources */,
+				354966F92DEEFB1300C0015E /* GoogleService-Info.plist in Resources */,
 				B550AEC82A73A03A00E239AF /* ColorAppAssets.xcassets in Resources */,
-				211B193B2A81FCF4007952EF /* GoogleService-Info.plist in Resources */,
 				B5C653CB2A6F9A490062AF2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
